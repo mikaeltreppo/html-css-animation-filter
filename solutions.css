@@ -12,7 +12,7 @@
     transition: width 3s;
 }
 
-.ex-2-square:hover {
+.ex-2-square:active {
     width: 100%;
 }
 
@@ -35,5 +35,29 @@
 }
 
 .ex-4-square:hover {
-   opacity:0;
+    opacity: 0;
+}
+
+
+/*quadrato 5*/
+
+.ex-5-square {
+    transition: scale 3s;
+}
+
+.ex-5-square:hover {
+    scale: 200%;
+}
+
+.ex-5-square:active {
+    scale: 50%;
+}
+
+/*quadrato 6*/
+.ex-6-img {
+    transition: filter 2s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(100%)
 }
