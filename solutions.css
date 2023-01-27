@@ -55,9 +55,28 @@
 
 /*quadrato 6*/
 .ex-6-img {
-    transition: filter 2s;
+    transition: filter;
 }
 
 .ex-6-img:hover {
     filter: grayscale(100%)
+}
+
+/*quadrato 7*/
+.ex-7-img {
+    transition: filter 5s;
+}
+
+.ex-7-img:hover {
+   filter: blur(5px) grayscale(100%);
+}
+
+/*quadrato 8*/
+.ex-8-img {
+    transition: all ;
+}
+
+.ex-8-img:hover {
+   filter: blur(5px) grayscale(100%);
+   border-radius: 50px;
 }
