@@ -80,3 +80,35 @@
    filter: blur(5px) grayscale(100%);
    border-radius: 50px;
 }
+
+/*quadrato 9*/
+.ex-9-img {
+    transition: all ;
+}
+
+.ex-9-img:hover {
+   filter: blur(5px) grayscale(100%);
+   border-radius: 50px;
+   scale: 50%;
+}
+
+
+/*quadrato 10*/
+.ex-10-icon {
+    animation: caricamento 2s linear infinite;
+}
+
+@keyframes caricamento {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/*quadrato 11*/
+.ex-11-icon:hover {
+    animation: carica 2s linear infinite;
+}
+
+@keyframes carica {
+    0% { transform: rotate(0deg); }
+    75% { transform: rotate(-270deg); }
+}
+/*quadrato 12*/
